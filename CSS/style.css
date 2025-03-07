@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Montserrat+Alternates:wght@400;500;600;700;800;900&family=Seymour+One&display=swap');
+
+:root {
+    --font-family: "Montserrat", sans-serif;
+    --second-family: "Seymour One", sans-serif;
+    --third-family: "Inter", sans-serif;
+    --font3: "DM Sans", sans-serif;
+  }
+
+.header-ul {
+    display: flex;
+    list-style: none;
+    gap: 28px;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a[href="#"] {
+    color: #FCFCFC;
+}
+
+.header-btn {
+    border-radius: 10px;
+    width: 152px;
+    height: 42px;
+    background: #f8d24e;
+    border: none;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    color: #000;
+}
+
+.header {
+    background-color: #84A178;
+}
+
+.header-li {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--fon-color);
+}
+
+.header-title {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 38px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--fon-color);
+    color: #FCFCFC;
+    margin: 0 0 0 16px;
+}
+
+.header-btn1 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 129%;
+    text-align: center;
+    color: var(--black);
+    width: 134px;
+    height: 42px;
+    background: none;
+    border: 2px solid #f8d24e;
+    border-radius: 10px;
+}
+
+.header-btn2 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-align: center;
+    color: #f8d24e;
+    background: none;
+    border: none;
+}
+
+.header-ul1 {
+    display: flex;
+    gap: 12px;
+}
+
+.passion {
+    display: flex;
+}
+
+.span {
+    display: inline-block;
+    font-family: var(--font-family);
+    font-weight: 900;
+    font-size: 46px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    text-align: right;
+    color: var(--black);
+    letter-spacing: -2.5px;
+}
+
+.header-ul2 {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+}
