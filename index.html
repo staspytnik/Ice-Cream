@@ -20,13 +20,13 @@
                             <a class="header-a" href="#">Home</a>
                         </li>
                         <li class="header-li">
-                            <a class="header-a" href="#">How it’s made?</a>
+                            <a class="header-a" href="#howit`smade">How it’s made?</a>
                         </li>
                         <li class="header-li">
-                            <a class="header-a" href="#">Our products</a>
+                            <a class="header-a" href="#products">Our products</a>
                         </li>
                         <li class="header-li">
-                            <a class="header-a" href="#">Contact</a>
+                            <a class="header-a" href="#contact">Contact</a>
                         </li>
                     </ul>
                 </nav>
@@ -39,17 +39,20 @@
            <div>
             <h1 class="header-title">ice cream <span class="passion">made with</span> passion</h1>
             <ul class="header-ul1">
-            <button class="header-btn1">Products</button>
-            <button class="header-btn2">How it’s made?</button>
+            <button class="header-btn1" onclick="location.href='#products'">Products</button>
+            <button class="header-btn2" onclick="location.href='#howit`smade'">How it’s made?</button>
             </ul>
             <ul class="header-ul3">
+                <ul class="header-ul4">
                 <li class="header-li2">
                     <img class="header-img1" src="./image/bowl.png" alt="bowloficecream">
                 </li>
+                
                 <li class="header-li2">
                     <p class="header-p1">Indulge in a scoop of ice <br class="space-between">cream made with passion and</br> treat your taste buds to an <br class="space-between">unforgettable experience!</br></p>
                 </li>
-                <li>
+            </ul>
+                <li class="header-li3">
                     <img class="header-img2" src="./image/whitestrilka.svg" alt="whitestrilka">
                 </li>
             </ul>
@@ -66,7 +69,7 @@
         </div>
     </section>
 
-       <section class="section">
+       <section class="section" id="products">
         <div class="container">
             <h3 class="section-title3">100% natural</h3>
             <h2 class="section-title2">products</h2>
@@ -75,7 +78,7 @@
                     <img class="section-img1" src="./image/icecream.jpg" alt="icecream" height="302" width="302"> 
                     <h3 class="section-title">ice cream</h3>
                     <p class="section-p">Soft ice cream with a <br>delicate taste. Made with <br>milk, cream, sugar and <br>natural stabilizer</p>
-                    <img class="section-img4" src="./image/blackstrilka.svg" alt="blackstrilka">
+                    <img class="section-img5" src="./image/blackstrilka.svg" alt="blackstrilka">
                 </li>
                 <li class="section-li2">
                     <img class="section-img2" src="./image/icecoffee.jpg" alt="icecoffee" height="302" width="302"> 
@@ -93,7 +96,7 @@
         </div>
        </section>
        
-       <section class="radits">
+       <section class="radits" id="howit`smade">
         <div class="container">
             <h3 class="radits-title3">tradition and love </h3>
             <h2 class="radits-title2 ">how it’s made?</h2>
@@ -149,6 +152,11 @@
                         <p class="kakarotto-p1">Emily, Los Angeles</p>
                     </li>
                 </ul>
+                <div class="kakarotto-div">
+                    <span class="kakarotto-span activ"></span>
+                    <span class="kakarotto-span"></span>
+                    <span class="kakarotto-span"></span>
+                </div>
             </div>
        </section>
 
@@ -208,26 +216,32 @@
 
 
     <footer class="footer">
-        <section class="chichi">
+        <section class="chichi" id="contact">
             <div class="container">
+                <div class="chichi-div">
+                <ul class="chichi-ul2">
+                
                 <h3 class="chichi-title">homemade ice cream made </h3>
                 <h2 class="chichi-title1">with passion</h2>
+                </ul>
                 <ul class="chichi-ul">
                 <li class="chichi-li">
                     <button class="chichi-btn1"><img src="./image/github.svg" alt="#"></button>
-                </li>
-                <li>
+              
                     <button class="chichi-btn2"><img src="./image/telegram.svg" alt="#"></button>
-                </li>
-                <li>
+               
                     <button class="chichi-btn3"><img src="./image/facebook.svg" alt="#"></button>
                 </li>
-            </ul>
+           
                 <address class="chichi-adress">
                     <a class="chichi-a" href="tel:+61 (0) 383 766 284">Feel free to contact <span class="chichi-span">+61 (0) 383 766 284</span></a>
                 </address>
+            </ul>
+        
+        </div>
                 <img class="chichi-img" src="./image/velikastrilka.svg" alt="velikastrilka">
                 <p class="chichi-p">© 2022 - IceCream. All Rights Reserved. </p>
+            
             </div>
         </section>
     </footer>
