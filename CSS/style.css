@@ -59,6 +59,15 @@ a[href="#contact"] {
     background-color: #ffc800;
 }
 
+.header-btn::after {
+    content: "";
+    background-image: url(../image/Vector.png);
+    display: inline-block;
+    width: 6px;
+    height: 10px;
+    margin-left: 7.75px;
+}
+
 .header {
     background-color: #84A178;
     height: 65px;
@@ -146,7 +155,7 @@ a[href="#contact"] {
     display: flex;
     list-style: none;
     flex-direction: column;
-
+    color: #fff;
 }
 
 button {
@@ -235,6 +244,7 @@ letter-spacing: 0.04em;
 text-transform: uppercase;
 text-align: center;
 color: var(--black);
+    margin: 60px 0 0 0;
 }
 
 .section-title2 {
@@ -245,6 +255,7 @@ letter-spacing: 0.06em;
 text-transform: uppercase;
 text-align: center;
 color: var(--black);
+margin: 12px 0 0 0;
 }
 
 .section {
@@ -378,7 +389,6 @@ box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.25);
     border-radius: 1852px;
     width: 490px;
     height: 490px; 
-    background-image: url(../image/yelloxcircle.png);
 }
 
 .radits-ul {
@@ -448,6 +458,15 @@ color: #FCFCFC;
     background-color: #ffc800;
 }
 
+.radits-btn::after {
+    content: "";
+    background-image: url(../image/Vector.png);
+    display: inline-block;
+    width: 6px;
+    height: 10px;
+    margin-left: 7.75px;
+}
+
 .radits-title {
     font-family: var(--font-family);
     font-weight: 700;
@@ -469,6 +488,7 @@ color: var(--fon-color);
 
 .radits-ul1 {
     background-color: #84A178;
+    gap: 210px;
 }
 
 .radits-title2 {
@@ -479,6 +499,7 @@ letter-spacing: 0.06em;
 text-transform: uppercase;
 text-align: center;
 color: #FCFCFC;
+    margin: 12px 0 0 0;
 }
 
 .radits-title3 {
@@ -489,8 +510,8 @@ letter-spacing: 0.04em;
 text-transform: uppercase;
 text-align: center;
 color: #FCFCFC;
-    padding-top: 60px;
-    margin-top: 0;
+    padding: 60px 0 0 0;
+    margin: 0;
 }
 
 .radits-ul2 {
@@ -670,6 +691,15 @@ color: var(--black);
     background-color: #ffc800;
 }
 
+.goten-btn::after {
+    content: "";
+    background-image: url(../image/Vector.png);
+    display: inline-block;
+    width: 6px;
+    height: 10px;
+    margin-left: 7.75px;
+}
+
 .goten-btn1 {
     border: 2px solid #f8d24e;
     width: 196px;
@@ -687,6 +717,15 @@ color: var(--black);
 
 .goten-btn1:hover {
     border-color: #ffc800;
+}
+
+.goten-btn1::after {
+    content: "";
+    background-image: url(../image/Vector.png);
+    display: inline-block;
+    width: 6px;
+    height: 10px;
+    margin-left: 7.75px;
 }
 
 .goten-ul1 {
@@ -734,11 +773,15 @@ font-weight: 500;
 font-size: 16px;
 line-height: 150%;
 color: var(--black);
-margin: 0  0 40px 40px;
+margin: 32px 0 40px 40px;
 }
 
 .goten-img {
-    margin-left: 40px;
+    margin: 0 0 32px 40px;
+}
+
+.goten-img1 {
+    margin: 0 0 0 40px;
 }
 
 
@@ -838,4 +881,6 @@ margin: 0  0 40px 40px;
     display: flex;
     gap: 263px;
 }
+
+
 
