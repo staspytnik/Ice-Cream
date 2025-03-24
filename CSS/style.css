@@ -452,6 +452,7 @@ color: #FCFCFC;
     text-align: center;
     color: #000;
     border: none;
+    margin-top: 54px;
 }
 
 .radits-btn:hover {
@@ -752,6 +753,7 @@ color: var(--black);
     letter-spacing: 0.04em;
     color: #d6936d; 
     margin-left: 40px;
+    display: inline-block;
 }
 
 .goten-p1:hover {
